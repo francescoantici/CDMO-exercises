@@ -8,9 +8,9 @@ It is reccomended to go over the Tutorial.ipynb file if it's the first time you 
 
 ## Exercises 
 
-The file Exercises.ipynb contains sevral examples of how to solve classic and real life problem with SAT and how to encode them in z3. 
+The file SAT_exercises.ipynb contains sevral examples of how to solve classic and real life problem with SAT and how to encode them in z3. 
 
 ## Encodings 
 
-The file Encodings.ipynb shows some interesting insights on how different encodings of classic contraints can improve the efficiency of the model. 
+The file SAT_encodings.ipynb shows some interesting insights on how different encodings of classic contraints can improve the efficiency of the model. 
 
