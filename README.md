@@ -1,16 +1,16 @@
 # CDMO-2021-2022-exercises
 
-In this repository you can find the notebooks for the exercises lessons of the first module of Combinatorial Decision Making and Optimization. 
+Inside this repository you can find the folders for the exercises lessons of the course Combinatorial Decision Making and Optimization for the a.y. 2021-2022. 
 
-## Tutorial 
+## SAT 
 
-It is reccomended to go over the Tutorial.ipynb file if it's the first time you are using the python module z3, it contains the basic information and operations to use it correctly for the sake of the exercises lessons. 
+In the SAT folder you will find the notebookes and the slides of some exercises in SAT encoding, solved in z3, along with the implementation of optimized encoding for the cardinality constraints. 
 
-## Exercises 
+## SMT 
 
-The file SAT_exercises.ipynb contains sevral examples of how to solve classic and real life problem with SAT and how to encode them in z3. 
+In the SMT folder you will find some exercises solved through z3 solver and written in smtlib. There is also a python script to generate a smtlib file. 
 
-## Encodings 
+## MIP 
 
-The file SAT_encodings.ipynb shows some interesting insights on how different encodings of classic contraints can improve the efficiency of the model. 
+The MIP folder contains some basic exercises written in minizinc and solved with different solvers, to prove the efficiency of them with different encodings. 
 

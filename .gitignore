@@ -1,5 +1,6 @@
 __pycache__
 .ipynb_checkpoints
-SAT_encodings_solutions.ipynb
-SAT_encodings.key
-SAT_exercises.key
+SAT/SAT_encodings.key
+SAT/SAT_exercises.key
+MIP/gurobi.sh 
+MIP/graph_coloring.mzn
