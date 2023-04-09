@@ -5,6 +5,6 @@ SAT/SAT_exercises.key
 MIP/gurobi.sh 
 MIP/graph_coloring.mzn
 MIP/
-SAT/SAT_encodings.ipynb
+# SAT/SAT_encodings.ipynb
 # SAT/SAT_encodings.pdf 
 SMT/
