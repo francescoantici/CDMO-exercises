@@ -1,1 +1,0 @@
-docker run -v ./docker-tutorial/results:/src/results docker-example
