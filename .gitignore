@@ -5,3 +5,5 @@ SAT/SAT_encodings.pdf
 SAT/SAT_encodings_completed.ipynb
 SAT/SAT_exercises_completed.ipynb
 /docker-tutorial 
+.DS_Store
+SAT/.DS_Store

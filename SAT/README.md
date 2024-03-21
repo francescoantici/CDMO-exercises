@@ -1,4 +1,4 @@
-# CDMO-2022-2023-exercises
+# CDMO-2023-2024-exercises
 
 In this repository you can find the notebooks for the exercises lessons of the first module of Combinatorial Decision Making and Optimization. 
 
