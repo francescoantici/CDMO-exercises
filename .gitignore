@@ -1,7 +1,7 @@
 __pycache__
 .ipynb_checkpoints
 SAT/SAT_encodings.ipynb
-SAT/SAT_encodings.pdf 
+#SAT/SAT_encodings.pdf 
 SAT/SAT_encodings_completed.ipynb
 SAT/SAT_exercises_completed.ipynb
 /docker-tutorial 
