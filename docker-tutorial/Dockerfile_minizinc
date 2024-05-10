@@ -1,0 +1,26 @@
+# Pulls an image endowed with minizinc
+FROM minizinc/mznc2022:latest
+
+# Installing python and its required libraries
+RUN apt-get update -y \
+    && apt-get install -y apt-transport-https \
+    && apt-get install -y python3 \
+    && apt-get install -y python3-pip 
+
+# Setting the base folder for the container 
+WORKDIR /src
+  
+# Coping all the content of this folder into the container
+COPY . .  
+
+# Install the python requirements 
+RUN pip install -r requirements.txt 
+
+# What to run when the container starts
+
+# Use this command to keep the container up and use the terminal inside of it
+# CMD python3 -m http.server 
+
+# Use this command to run the instances and generate the results automatically
+CMD minizinc --solver gecode nqueens.mzn --json-stream --output-time > results/20_minizinc.json && python3 nqueens.py
+

@@ -1,0 +1,16 @@
+# Pulls an image 
+FROM alpine:latest
+
+# Preliminary requirements installation
+RUN echo "Hello world! This is a test for the creation of a docker container"
+
+# To specify the working directory 
+WORKDIR /src
+
+# Copy the local files into the container 
+COPY . . 
+
+CMD echo "The files copied inside the docker container are:" && ls  
+
+
+
